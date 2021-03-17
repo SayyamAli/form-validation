@@ -31,13 +31,13 @@ function validateForm() {
     if (c_pass == "") {
 
         $("#error-confirm-pass").css("color", "red");
-        $("#password").css("border", "2px solid red");
+        $("#confirm-password").css("border", "2px solid red");
         $("#error-confirm-pass").html("Please fill the Confirm Password field");
         ch = false;
     }
     if (c_pass != pass) {
         $("#error-confirm-pass").css("color", "red");
-        $("#password").css("border", "2px solid red");
+        $("#confirm-password").css("border", "2px solid red");
         $("#error-confirm-pass").html("Password does not match");
         ch = false;
     }
